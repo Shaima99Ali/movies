@@ -19,7 +19,7 @@ class PosterExtention extends StatelessWidget {
       ),
       child: Column(
         children: [
-          Poster(image: "assets/images/dead_pool.png" , margin: 0,),
+          Poster(image: "assets/images/dead_pool.png" , marginRight: 0, bookMarkColor: AppColors.secondary, posterIcon: Icons.add, marginBottom: 0,),
           const SizedBox(
             height: 8,
           ),

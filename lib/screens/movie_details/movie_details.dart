@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:movies/app_design/app_colors.dart';
-import 'package:movies/screens/movie_details/feild.dart';
+import 'package:movies/screens/movie_details/field.dart';
 import 'package:movies/screens/taps/home_/poster.dart';
 
 import '../taps/home_/poster_extension.dart';
@@ -73,7 +73,7 @@ class MovieDetails extends StatelessWidget {
                 ),
                 Row(
                   children: [
-                    Poster(image: "assets/images/ImageSmall.png", margin: 0),
+                    Poster(image: "assets/images/ImageSmall.png", marginRight: 0 , bookMarkColor: AppColors.secondary, posterIcon: Icons.add, marginBottom: 0,),
                     const SizedBox(
                       width: 15,
                     ),
@@ -82,21 +82,21 @@ class MovieDetails extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Feild(),
+                            Field(),
                             SizedBox(
                               width: 10,
                             ),
-                            Feild(),
+                            Field(),
                             SizedBox(
                               width: 10,
                             ),
-                            Feild(),
+                            Field(),
                           ],
                         ),
                         const SizedBox(
                           height: 4,
                         ),
-                        const Feild(),
+                        const Field(),
                         const SizedBox(
                           height: 20,
                         ),

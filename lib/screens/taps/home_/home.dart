@@ -118,10 +118,10 @@ class _HomeState extends State<Home> {
                         itemBuilder: (context, index) {
                           return Row(
                             children: [
-                              Poster(image: "assets/images/Narcos.png" , margin: 10,),
-                              Poster(image: "assets/images/dead_pool.png" , margin: 10,),
-                              Poster(image: "assets/images/Annabelle.png" , margin: 10,),
-                              Poster(image: "assets/images/Toy_story.png" , margin: 10,),
+                              Poster(image: "assets/images/Narcos.png" , marginRight: 10, bookMarkColor: AppColors.secondary, posterIcon: Icons.add, marginBottom: 0,),
+                              Poster(image: "assets/images/dead_pool.png" , marginRight: 10, bookMarkColor: AppColors.secondary, posterIcon: Icons.add, marginBottom: 0,),
+                              Poster(image: "assets/images/Annabelle.png" , marginRight: 10, bookMarkColor: AppColors.secondary, posterIcon: Icons.add, marginBottom: 0,),
+                              Poster(image: "assets/images/Toy_story.png" , marginRight: 10, bookMarkColor: AppColors.secondary, posterIcon: Icons.add, marginBottom: 0,),
                             ],
                           );
                         },

@@ -3,8 +3,8 @@ import 'package:google_fonts/google_fonts.dart';
 
 import '../../app_design/app_colors.dart';
 
-class Feild extends StatelessWidget {
-  const Feild({super.key});
+class Field extends StatelessWidget {
+  const Field({super.key});
 
   @override
   Widget build(BuildContext context) {
