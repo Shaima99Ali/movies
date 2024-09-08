@@ -52,7 +52,7 @@ class WatchList extends StatelessWidget {
                           ),
                         ],
                       ),
-                      const SizedBox(height: 10,),
+                      const SizedBox(height: 15,),
                       Padding(
                         padding: const EdgeInsets.only(right: 25),
                         child: Container(
@@ -61,7 +61,7 @@ class WatchList extends StatelessWidget {
                           ),
                         ),
                       ),
-                      const SizedBox(height: 15,),
+                      const SizedBox(height: 10,),
                     ],
                   );
                 }),
