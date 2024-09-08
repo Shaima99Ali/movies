@@ -20,12 +20,12 @@ class MyApp extends StatelessWidget {
     NewRealeasesManager.getRealeases();
     RecommendedManager.getRecommended();
     return MaterialApp(
-      /*routes :{
+      routes :{
         Splash.routeName : (_) => const Splash(),
         MainScreen.routeName : (_) => const MainScreen(),
         MovieDetails.routeName : (_) => const MovieDetails(),
       },
-      initialRoute: Splash.routeName,*/
+      initialRoute: Splash.routeName,
     );
   }
 }
