@@ -3,14 +3,18 @@
 /// total_pages : 1
 /// total_results : 0
 
-class NameMovise {
-  NameMovise({
-      this.page, 
-      this.results, 
-      this.totalPages, 
+
+
+
+/*
+class NameMovie {
+  NameMovie({
+      this.page,
+      this.results,
+      this.totalPages,
       this.totalResults,});
 
-  NameMovise.fromJson(dynamic json) {
+  NameMovie.fromJson(dynamic json) {
     page = json['page'];
     if (json['results'] != null) {
       results = [];
@@ -38,3 +42,7 @@ class NameMovise {
   }
 
 }
+
+ */
+
+

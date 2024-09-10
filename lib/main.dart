@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:movies/apis/api_manager/name_manager.dart';
 import 'package:movies/apis/api_manager/new_realeases_manager.dart';
 import 'package:movies/apis/api_manager/popular_manager.dart';
 import 'package:movies/apis/api_manager/recommended_manager.dart';
@@ -19,7 +20,8 @@ class MyApp extends StatelessWidget {
     PopularManager.getPopular();
     NewRealeasesManager.getRealeases();
     RecommendedManager.getRecommended();
-    return MaterialApp(
+
+  return MaterialApp(
       routes :{
         Splash.routeName : (_) => const Splash(),
         MainScreen.routeName : (_) => const MainScreen(),
@@ -27,5 +29,7 @@ class MyApp extends StatelessWidget {
       },
       initialRoute: Splash.routeName,
     );
+
+
   }
 }

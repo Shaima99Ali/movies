@@ -1,6 +1,9 @@
+
 import 'package:flutter/material.dart';
+import 'package:movies/apis/api_manager/name_manager.dart';
 import 'package:movies/app_design/app_colors.dart';
 import 'package:movies/screens/taps/browse.dart';
+
 import 'package:movies/screens/taps/home_/home.dart';
 import 'package:movies/screens/taps/search.dart';
 import 'package:movies/screens/taps/watch_list.dart';
@@ -20,7 +23,10 @@ class _MainScreenState extends State<MainScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+
+    return
+
+    Scaffold(
       backgroundColor: Colors.transparent,
       bottomNavigationBar: Theme(
         data: ThemeData(canvasColor: AppColors.bottomBar),
@@ -43,5 +49,6 @@ class _MainScreenState extends State<MainScreen> {
       ),
       body: taps[selectedTap] ,
     );
+
   }
 }

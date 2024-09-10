@@ -3,11 +3,12 @@
 /// total_pages : 45933
 /// total_results : 918658
 
+
 class ListMovies {
   ListMovies({
-      this.page, 
-      this.results, 
-      this.totalPages, 
+      this.page,
+      this.results,
+      this.totalPages,
       this.totalResults,});
 
   ListMovies.fromJson(dynamic json) {
@@ -56,19 +57,19 @@ class ListMovies {
 
 class Results {
   Results({
-      this.adult, 
-      this.backdropPath, 
-      this.genreIds, 
-      this.id, 
-      this.originalLanguage, 
-      this.originalTitle, 
-      this.overview, 
-      this.popularity, 
-      this.posterPath, 
-      this.releaseDate, 
-      this.title, 
-      this.video, 
-      this.voteAverage, 
+      this.adult,
+      this.backdropPath,
+      this.genreIds,
+      this.id,
+      this.originalLanguage,
+      this.originalTitle,
+      this.overview,
+      this.popularity,
+      this.posterPath,
+      this.releaseDate,
+      this.title,
+      this.video,
+      this.voteAverage,
       this.voteCount,});
 
   Results.fromJson(dynamic json) {

@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:movies/app_design/app_colors.dart';
+import 'package:movies/screens/movie_details/movie_category.dart';
 import 'package:movies/screens/movie_details/movie_details.dart';
+import 'package:movies/screens/taps/browse.dart';
 import 'package:movies/screens/taps/home_/poster.dart';
 import 'package:movies/screens/taps/home_/poster_extension.dart';
 
@@ -17,7 +19,8 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.transparent,
-      body: SafeArea(
+      body:
+      SafeArea(
         child: Column(
           children: [
             Stack(
@@ -171,9 +174,13 @@ class _HomeState extends State<Home> {
             ),
           ],
         ),
+
+
       ),
     );
+
   }
+
 }
 
 //const SizedBox(height: 10,),
