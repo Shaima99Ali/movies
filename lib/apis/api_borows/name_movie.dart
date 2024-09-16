@@ -1,12 +1,11 @@
+import 'package:movies/apis/api_borows/list_movies.dart';
+
 /// page : 1
 /// results : []
 /// total_pages : 1
 /// total_results : 0
 
 
-
-
-/*
 class NameMovie {
   NameMovie({
       this.page,
@@ -19,14 +18,14 @@ class NameMovie {
     if (json['results'] != null) {
       results = [];
       json['results'].forEach((v) {
-        results?.add(Dynamic.fromJson(v));
+        results?.add(Movie.fromJson(v));
       });
     }
     totalPages = json['total_pages'];
     totalResults = json['total_results'];
   }
   int? page;
-  List<dynamic>? results;
+  List<Movie>? results;
   int? totalPages;
   int? totalResults;
 
@@ -43,6 +42,8 @@ class NameMovie {
 
 }
 
- */
+
+
+
 
 

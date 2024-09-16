@@ -5,8 +5,8 @@ import 'package:movies/screens/movie_details/movie_category.dart';
 class AppCategory extends StatelessWidget {
   final Category category;
   const AppCategory({super.key,required this.category});
-  //final radius = const Radius.circular(0);
 
+//
   @override
   Widget build(BuildContext context) {
     return Container(

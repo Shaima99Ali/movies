@@ -39,13 +39,15 @@ class _BrowseState extends State<Browse> {
 
                   ),
                   itemBuilder: (context, index) => InkWell(
-                      onTap: () {
-                       // onCategoryClick(Category.categories[index]);
-                      },
-                      child: AppCategory(category: Category.categories[index])),
+     child: AppCategory(category: Category.categories[index]),
+       // onTap:() {Navigator.pushReplacementNamed(context,)}
+
+                    // onCategoryClick(Category.categories[index]),
+                  ),
                 ),
 
-            ),
+            )
+
             ),
         ],
       ),
