@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:movies/app_design/app_category.dart';
 import 'package:movies/app_design/app_colors.dart';
 import 'package:movies/screens/movie_details/movie_category.dart';
+import 'package:movies/screens/taps/new_screen.dart';
 class Browse extends StatefulWidget {
   const Browse({super.key});
 
@@ -39,10 +40,14 @@ class _BrowseState extends State<Browse> {
 
                   ),
                   itemBuilder: (context, index) => InkWell(
-     child: AppCategory(category: Category.categories[index]),
-       // onTap:() {Navigator.pushReplacementNamed(context,)}
+                  // onCategoryClick(Category.categories[index](
+                    onTap:() {
+                      final categry=MaterialPageRoute(builder: (context)=>NewScreen());
+                   Navigator.push(context,categry);
 
-                    // onCategoryClick(Category.categories[index]),
+                    },
+                    child: AppCategory(category: Category.categories[index]),
+
                   ),
                 ),
 
@@ -52,4 +57,7 @@ class _BrowseState extends State<Browse> {
         ],
       ),
     );
-  }}
+  }
+
+}
+
